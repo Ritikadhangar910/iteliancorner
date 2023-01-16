@@ -6,7 +6,7 @@ const cors = require("cors");
 app.use(express.json());
 app.use("/payment", payment);
 app.use(cors());
-require("./Db/config");
+require("./Db/Config");
 const User = require("./Db/users");
 const FoodItems = require("./Db/Fooditems");
 app.post("/register", async (req, res) => {
