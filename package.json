@@ -1,4 +1,13 @@
 {
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "For practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Ritika Dhangar",
   "dependencies": {
     "body-parser": "^1.20.1",
     "cors": "^2.8.5",
